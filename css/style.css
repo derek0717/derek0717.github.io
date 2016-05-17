@@ -96,7 +96,7 @@ ul li img {
   padding-left:15px;
   padding-right:15px;
 }
-a.live {
+span.live {
     display: inline-block;
     color: #f00;
     border: 1px solid #f00;
@@ -105,7 +105,7 @@ a.live {
     text-decoration: none;
     transition: color 0.1s, border-color 0.1s;
 }
-a.live:hover {
+span.live:hover {
     color: #c00;
     border-color: #c00;
 }
