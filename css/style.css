@@ -44,10 +44,68 @@ ul li img {
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 　BODY
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
-body {
+/*body {
   padding-top: 50px;
-}
-.content {
+}*/
+.headd {
   padding: 40px 15px;
   text-align: center;
+}
+
+/*from cover*/
+
+.inner {
+  padding: 30px;
+}
+.mastfoot {
+  margin-right: auto;
+  margin-left: auto;
+  text-align:center;
+}
+@media (min-width: 768px) {
+  .mastfoot {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+　WORK
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.work {
+  padding-bottom:15px;
+  clear:both;
+}
+.workLeft {
+    width: 340px;
+	margin-left: auto;
+    margin-right: auto;
+}
+.workPhoto{
+	background-color:#444;
+}
+.workPhoto:nth-child(1){
+	width:337px;
+	height:189px;
+	margin-bottom:5px;
+}
+.workPhoto:nth-child(2),.workPhoto:nth-child(3){
+	display:inline-block;
+	width:166px;
+	height:93px;
+}
+.workRight {
+  padding-left:15px;
+  padding-right:15px;
+}
+a.live {
+    display: inline-block;
+    color: #f00;
+    border: 1px solid #f00;
+    padding: 1px 2px 1px 2px;
+    margin-left: 10px;
+    text-decoration: none;
+    transition: color 0.1s, border-color 0.1s;
+}
+a.live:hover {
+    color: #c00;
+    border-color: #c00;
 }
