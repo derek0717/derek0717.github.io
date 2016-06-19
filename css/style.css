@@ -53,10 +53,6 @@ ul li img {
 }
 
 /*from cover*/
-.site-wrapper {
-  background:url(../images/bg.jpg) no-repeat center;
-  background-size:cover;
-}
 .inner {
   padding: 30px;
 }
