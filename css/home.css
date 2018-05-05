@@ -1,8 +1,0 @@
-@charset "UTF-8";
-body {
-    background: url(../images/bg.jpg) no-repeat center;
-    background-size: cover;
-}
-.site-wrapper {
-    background-color: rgba(0,0,0,0.5);
-}
